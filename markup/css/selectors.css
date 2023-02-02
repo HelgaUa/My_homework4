@@ -1,0 +1,40 @@
+h2 {
+    background-color: rgb(15, 153, 153);
+}
+
+ul li {
+    background-color: rgb(168, 244, 218);
+}
+
+.list_first {
+    background-color: rgb(242, 204, 156);
+}
+
+#mainItem {
+    background-color: rgb(222, 144, 80);
+}
+
+ul + p {
+    background-color: rgb(243, 230, 151);
+}
+
+ol li {
+    background-color: rgb(240, 130, 75);
+}
+
+.list.list_second {
+    background-color: rgb(185, 127, 46);
+}
+
+.list .list__link {
+    display: block;
+    background-color: rgb(246, 174, 80);
+}
+
+[data-item="second-item"] {
+    background-color: rgb(126, 84, 45);
+}
+
+ol + p {
+    background-color: rgb(194, 83, 71);
+}

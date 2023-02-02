@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/selectors.css">
+    <title>Selectors</title>
+</head>
+<body>
+    <h1>Селектори</h1>
+    <dl>
+        <dt><b>Універсальний селектор: * {}</b></dt>
+        <dd>Будуть обрані <i>всі елементи сторінки.</i></dd>
+    </dl>
+    <dl>
+        <dt><b>Теговий селектор елемента: h1 {}</b></dt>
+        <dd>Будуть обрані <i>всі елементи h1</i> на сторінці.</dd>
+    </dl>
+    <dl>
+        <dt><b>Селектор класу: .class {}</b></dt>
+        <dd>Будуть обрані <i>всі елементи  із класом .class</i> на сторінці.</dd>
+    </dl>
+    <dl>
+        <dt><b>Селектор ідентифікатора: #id {}</b></dt>
+        <dd>Буде обраний <i>елемент із ідентифікатором id.</i></dd>
+    </dl>
+    <dl>
+        <dt><b>Селектор груп: h1, h2 {}</b></dt>
+        <dd>Будуть обрані <i>всі елементи h1 та h2</i> на сторінці.</dd>
+    </dl>
+    <dl>
+        <dt><b>Селектор нащадка: ul li {}</b></dt>
+        <dd>Будуть обрані <i>всі елементи li, що знаходяться всередині ul.</i></dd>
+    </dl>
+    <dl>
+        <dt><b>Дочірній селектор: li > a {}</b></dt>
+        <dd>Будуть обрані елементи a, які є <i>прямими нащадками</i>, ідуть одразу за батьківським li. </dd>
+    </dl>
+    <dl>
+        <dt><b>Сусідній селектор: h1 + p {}</b></dt>
+        <dd>Буде обрано <i>елемент p, що розташований одразу за h1,</i> якщо вони мають спільний батьківський елемент.</dd>
+    </dl>
+    <dl>
+        <dt><b>Родинний селектор: ul ~ p {}</b></dt>
+        <dd>Буде обрано <i>всі елементи р, що знаходяться за ul</i> і мають спільний батьківський елемент.</dd>
+    </dl>
+    <dl>
+        <dt><b>Селектор атрибута: a[title] {}</b></dt>
+        <dd>Буде обрано всі посилання із атрибутом title.</dd>
+    </dl>
+    <hr>
+<!--Second part-->
+    <h2>Little Prince</h2>
+    <ul>
+        <li class="list list_first">The flowers have been growing thorns for millions of years.</li>
+        <li id="mainItem">For millions of years the sheep have been eating them just the same.</li>
+        <li>And is it not a matter of consequence to try to understand why the flowers go to so much trouble to grow thorns which are never of any use to them?</li>
+    </ul>
+    <p>Is the warfare between the sheep and the flowers not important? Is this not of more consequence than a fat red−faced
+gentleman's sums?And if I know - I, myself - one flower which is unique in the world, which grows nowhere but on my planet, but which one little sheep can
+destroy in a single bite some morning, without even noticing what he is doing - Oh! You think that is not important!"</p>
+    <ol>
+        <li class="list list_second">His face turned from white to red as he continued:</li>
+        <li class="list"><a href="#" class="list__link">His face turned from white to red as he continued:</a> </li>
+        <li data-item="second-item">If some one loves a flower, of which just one single blossom grows in all the millions and millions of stars, it is enough to make him happy just to look at the
+stars. He can say to himself, 'Somewhere, my flower is there...'</li>
+        <li>But if the sheep eats the flower, in one moment all his stars will be darkened...</li>
+    </ol>
+    <p>And you think that is not important! He could not say anything more.</p>
+</body>
+</html>
